@@ -5,6 +5,7 @@ import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import io from 'socket.io-client';
 import reducer from './reducer';
+import {setState} from './action_creators';
 import App from './components/App';
 import {VotingContainer} from './components/Voting';
 import {ResultsContainer} from './components/Results';
